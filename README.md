@@ -9,6 +9,6 @@ The objective of the challenge is to build a Chrome Extension that will customis
 
 **USAGE**
 
-Download the code and Go to [Chrome Extension](chrome://extensions/)
+Download the code and Go to [Chrome Extension](chrome://extensions/).
 Here Select the Load Unpakced and then choose the project that you downloaded and that's it.
 Now try opening a new tab and it will show the last 10 coding challenges posted by John Crickett.
