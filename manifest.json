@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Hello Extension to the world!",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "assets/extension-icon.png"
+    },
+    "content_scripts": [
+        {
+          "js": ["content_injected.js"],
+          "matches": [
+            "*://*/*"
+          ]
+        }
+    ],
+    "chrome_url_overrides" : {
+        "newtab": "scripts/content.html"
+    },
+    "permissions": ["tabs"]
+  }
